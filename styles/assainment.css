@@ -1,0 +1,65 @@
+/* common shared styles */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header related styles */
+.header {
+  background-image: url(../resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+}
+.header {
+  border-radius: 16px;
+  margin-top: 50px;
+}
+.header-title {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin-top: 120px;
+}
+.header-greating {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+.banner-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* main section related styles */
+.offer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-value {
+  color: #f00;
+  text-align: center;
+  font-size: 88px;
+  font-weight: 700;
+}
+.offer-info {
+  color: #f00;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-description {
+  color: #070211;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.offer-image{
+  align-content: center;
+  
+}
