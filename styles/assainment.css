@@ -59,28 +59,41 @@ body {
   font-size: 48px;
   font-weight: 700;
 }
-.welcome-content {
+.welcome {
+  display: flex;
   background-image: url(../resources/Vectorrr.png);
   background-repeat: no-repeat;
   width: 1320px;
   height: 600px;
   margin: 0 auto;
+  text-align: left;
+  text-decoration: none;
+  margin-top: 125px;
+.welcome-image {
+  width: 319.83px;
+  height: 464.662px;
+  padding-top: 70px;
+}
+.welcome-content {
+  padding-top: 125px;
 }
 .welcome-heading {
   color: #fff;
   font-size: 64px;
   font-weight: 900;
-  text-align: left;
+  padding-left: 125px;
 }
 .welcome-description {
   color: rgba(255, 255, 255, 0.8);
   font-size: 18px;
   font-weight: 400;
-  text-align: left;
+  padding-left: 125px;
 }
 .button {
+  border-radius: 5px;
+  background-color: black;
   color: white;
   font-size: 20px;
   font-weight: 700;
-  background-color: black;
+  padding-left: 125px;
 }
